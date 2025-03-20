@@ -9,10 +9,10 @@ You need to check your pins and update them accordingly
  - lcd_set_cursor(): Moves cursor to a specific position.
  - lcd_print(): Prints a string to the LCD.
 
-Since the LCD is operating in 4-bit mode, all data must be correctly transmitted over D4-D7. Double-check:
-    - D4, D5, D6, D7 pins are correctly connected to the Raspberry Pi.
-    - RS, E, RW (should be GND) are properly wired.
-    - Power (VCC to 5V, GND to GND) is secure.
+##Since the LCD is operating in 4-bit mode, all data must be correctly transmitted over D4-D7. Double-check:
+ - D4, D5, D6, D7 pins are correctly connected to the Raspberry Pi.
+ - RS, E, RW (should be GND) are properly wired.
+ - Power (VCC to 5V, GND to GND) is secure.
 
 ##Compilation & Execution:
 
