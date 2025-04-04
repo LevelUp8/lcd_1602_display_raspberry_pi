@@ -17,5 +17,5 @@ You need to check your pins and update them accordingly
 ##Compilation & Execution:
 
 ```Bash
-  gcc lcd1602.c -o lcd1602 -lwiringPi
+  gcc display.c -o display -lwiringPi
   sudo ./lcd1602
