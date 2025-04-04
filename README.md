@@ -18,4 +18,4 @@ You need to check your pins and update them accordingly
 
 ```Bash
   gcc display.c -o display -lwiringPi
-  sudo ./lcd1602
+  sudo ./display
